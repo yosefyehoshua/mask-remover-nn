@@ -45,7 +45,8 @@ CelebAMask-HQ-2000-sample
 CelebAMask-HQ-Model
 CelebAMask-HQ
 output/model_final.pth
-models/face_parsing/res
+#models/face_parsing/res
+models/face_parsing/res/cp/*.pth
 models/image2stylegan/save_image/crossover/*.png
 models/image2stylegan/save_image_noise/crossover/*.png
 

@@ -1,0 +1,666 @@
+INFO train.py(180): it: 50/26000, lr: 0.000014, loss: 3.3202, eta: 8:03:39, time: 54.7943
+INFO train.py(180): it: 100/26000, lr: 0.000020, loss: 3.1967, eta: 7:46:47, time: 52.2567
+INFO train.py(180): it: 150/26000, lr: 0.000028, loss: 3.0563, eta: 7:40:43, time: 52.2818
+INFO train.py(180): it: 200/26000, lr: 0.000040, loss: 2.9120, eta: 7:37:07, time: 52.2123
+INFO train.py(180): it: 250/26000, lr: 0.000056, loss: 2.7456, eta: 7:34:34, time: 52.1823
+INFO train.py(180): it: 300/26000, lr: 0.000079, loss: 2.5842, eta: 7:32:25, time: 52.0822
+INFO train.py(180): it: 350/26000, lr: 0.000111, loss: 2.4904, eta: 7:30:23, time: 51.8592
+INFO train.py(180): it: 400/26000, lr: 0.000157, loss: 2.3786, eta: 7:28:18, time: 51.5591
+INFO train.py(180): it: 450/26000, lr: 0.000222, loss: 2.3435, eta: 7:26:19, time: 51.3671
+INFO train.py(180): it: 500/26000, lr: 0.000314, loss: 2.2558, eta: 7:24:25, time: 51.1917
+INFO train.py(180): it: 550/26000, lr: 0.000444, loss: 2.2044, eta: 7:24:20, time: 53.3053
+INFO train.py(180): it: 600/26000, lr: 0.000627, loss: 2.2375, eta: 7:22:25, time: 50.9076
+INFO train.py(180): it: 650/26000, lr: 0.000885, loss: 2.1714, eta: 7:20:37, time: 50.8088
+INFO train.py(180): it: 700/26000, lr: 0.001250, loss: 2.2057, eta: 7:18:56, time: 50.8091
+INFO train.py(180): it: 750/26000, lr: 0.001766, loss: 2.2001, eta: 7:17:21, time: 50.7739
+INFO train.py(180): it: 800/26000, lr: 0.002495, loss: 2.2167, eta: 7:15:53, time: 50.8139
+INFO train.py(180): it: 850/26000, lr: 0.003524, loss: 2.2176, eta: 7:14:29, time: 50.7868
+INFO train.py(180): it: 900/26000, lr: 0.004977, loss: 2.2410, eta: 7:13:08, time: 50.7941
+INFO train.py(180): it: 950/26000, lr: 0.007031, loss: 2.3993, eta: 7:11:50, time: 50.7728
+INFO train.py(180): it: 1000/26000, lr: 0.009931, loss: 2.2915, eta: 7:10:34, time: 50.7636
+INFO optimizer.py(65): ==> warmup done, start to implement poly lr strategy
+INFO train.py(180): it: 1050/26000, lr: 0.009982, loss: 2.3114, eta: 7:10:14, time: 52.9742
+INFO train.py(180): it: 1100/26000, lr: 0.009964, loss: 2.2945, eta: 7:08:59, time: 50.7171
+INFO train.py(180): it: 1150/26000, lr: 0.009946, loss: 2.2139, eta: 7:07:48, time: 50.7861
+INFO train.py(180): it: 1200/26000, lr: 0.009928, loss: 2.2444, eta: 7:06:39, time: 50.7858
+INFO train.py(180): it: 1250/26000, lr: 0.009910, loss: 2.1728, eta: 7:05:29, time: 50.7014
+INFO train.py(180): it: 1300/26000, lr: 0.009892, loss: 2.3532, eta: 7:04:20, time: 50.6466
+INFO train.py(180): it: 1350/26000, lr: 0.009874, loss: 2.2863, eta: 7:03:13, time: 50.7205
+INFO train.py(180): it: 1400/26000, lr: 0.009856, loss: 2.2027, eta: 7:02:09, time: 50.7683
+INFO train.py(180): it: 1450/26000, lr: 0.009838, loss: 2.2348, eta: 7:01:04, time: 50.6766
+INFO train.py(180): it: 1500/26000, lr: 0.009820, loss: 2.2143, eta: 6:59:59, time: 50.6086
+INFO train.py(180): it: 1550/26000, lr: 0.009802, loss: 2.1226, eta: 6:59:35, time: 53.1881
+INFO train.py(180): it: 1600/26000, lr: 0.009784, loss: 2.1706, eta: 6:58:30, time: 50.5991
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.921680 | in iter: 1624
+INFO train.py(180): it: 1650/26000, lr: 0.009766, loss: 2.1855, eta: 17:25:51, time: 2603.9012
+INFO train.py(180): it: 1700/26000, lr: 0.009748, loss: 2.1247, eta: 17:05:04, time: 50.6719
+INFO train.py(180): it: 1750/26000, lr: 0.009730, loss: 2.1850, eta: 16:45:24, time: 50.5534
+INFO train.py(180): it: 1800/26000, lr: 0.009712, loss: 2.1713, eta: 16:26:48, time: 50.6600
+INFO train.py(180): it: 1850/26000, lr: 0.009694, loss: 2.1879, eta: 16:09:08, time: 50.5630
+INFO train.py(180): it: 1900/26000, lr: 0.009676, loss: 2.1353, eta: 15:52:23, time: 50.6778
+INFO train.py(180): it: 1950/26000, lr: 0.009658, loss: 2.1361, eta: 15:36:26, time: 50.5982
+INFO train.py(180): it: 2000/26000, lr: 0.009640, loss: 2.1819, eta: 15:21:13, time: 50.5287
+INFO train.py(180): it: 2050/26000, lr: 0.009622, loss: 2.0829, eta: 15:07:09, time: 52.8059
+INFO train.py(180): it: 2100/26000, lr: 0.009603, loss: 2.1351, eta: 14:53:18, time: 50.5608
+INFO train.py(180): it: 2150/26000, lr: 0.009585, loss: 2.0995, eta: 14:40:02, time: 50.5625
+INFO train.py(180): it: 2200/26000, lr: 0.009567, loss: 2.0865, eta: 14:27:21, time: 50.6045
+INFO train.py(180): it: 2250/26000, lr: 0.009549, loss: 2.0612, eta: 14:15:11, time: 50.5340
+INFO train.py(180): it: 2300/26000, lr: 0.009531, loss: 2.0836, eta: 14:03:31, time: 50.5609
+INFO train.py(180): it: 2350/26000, lr: 0.009513, loss: 2.0976, eta: 13:52:18, time: 50.5310
+INFO train.py(180): it: 2400/26000, lr: 0.009495, loss: 2.0247, eta: 13:41:30, time: 50.5280
+INFO train.py(180): it: 2450/26000, lr: 0.009477, loss: 2.0882, eta: 13:31:08, time: 50.5476
+INFO train.py(180): it: 2500/26000, lr: 0.009459, loss: 2.0730, eta: 13:21:07, time: 50.4530
+INFO train.py(180): it: 2550/26000, lr: 0.009441, loss: 2.0421, eta: 13:11:54, time: 53.1948
+INFO train.py(180): it: 2600/26000, lr: 0.009422, loss: 2.0835, eta: 13:02:35, time: 50.4901
+INFO train.py(180): it: 2650/26000, lr: 0.009404, loss: 2.0794, eta: 12:53:35, time: 50.4258
+INFO train.py(180): it: 2700/26000, lr: 0.009386, loss: 2.1020, eta: 12:44:54, time: 50.5700
+INFO train.py(180): it: 2750/26000, lr: 0.009368, loss: 2.0572, eta: 12:36:29, time: 50.3961
+INFO train.py(180): it: 2800/26000, lr: 0.009350, loss: 2.0352, eta: 12:28:21, time: 50.5084
+INFO train.py(180): it: 2850/26000, lr: 0.009332, loss: 2.1012, eta: 12:20:28, time: 50.5270
+INFO train.py(180): it: 2900/26000, lr: 0.009314, loss: 2.1204, eta: 12:12:50, time: 50.4774
+INFO train.py(180): it: 2950/26000, lr: 0.009296, loss: 2.1101, eta: 12:05:25, time: 50.5023
+INFO train.py(180): it: 3000/26000, lr: 0.009277, loss: 2.1288, eta: 11:58:15, time: 50.5718
+INFO train.py(180): it: 3050/26000, lr: 0.009259, loss: 2.0398, eta: 11:51:32, time: 52.5866
+INFO train.py(180): it: 3100/26000, lr: 0.009241, loss: 2.0550, eta: 11:44:44, time: 50.4506
+INFO train.py(180): it: 3150/26000, lr: 0.009223, loss: 2.0290, eta: 11:38:08, time: 50.4188
+INFO train.py(180): it: 3200/26000, lr: 0.009205, loss: 2.0340, eta: 11:31:42, time: 50.3670
+INFO train.py(180): it: 3250/26000, lr: 0.009187, loss: 2.0588, eta: 11:25:27, time: 50.3962
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.874414 | in iter: 3249
+INFO train.py(180): it: 3300/26000, lr: 0.009168, loss: 2.0329, eta: 16:12:28, time: 2606.2079
+INFO train.py(180): it: 3350/26000, lr: 0.009150, loss: 2.1879, eta: 16:01:33, time: 50.6096
+INFO train.py(180): it: 3400/26000, lr: 0.009132, loss: 2.0553, eta: 15:50:54, time: 50.5436
+INFO train.py(180): it: 3450/26000, lr: 0.009114, loss: 2.0322, eta: 15:40:34, time: 50.5871
+INFO train.py(180): it: 3500/26000, lr: 0.009096, loss: 2.0339, eta: 15:30:29, time: 50.4759
+INFO train.py(180): it: 3550/26000, lr: 0.009077, loss: 2.0486, eta: 15:20:53, time: 52.7628
+INFO train.py(180): it: 3600/26000, lr: 0.009059, loss: 2.1556, eta: 15:11:19, time: 50.5644
+INFO train.py(180): it: 3650/26000, lr: 0.009041, loss: 2.0566, eta: 15:01:59, time: 50.5832
+INFO train.py(180): it: 3700/26000, lr: 0.009023, loss: 2.0062, eta: 14:52:53, time: 50.4815
+INFO train.py(180): it: 3750/26000, lr: 0.009005, loss: 2.0048, eta: 14:43:59, time: 50.4877
+INFO train.py(180): it: 3800/26000, lr: 0.008986, loss: 2.0843, eta: 14:35:19, time: 50.5309
+INFO train.py(180): it: 3850/26000, lr: 0.008968, loss: 2.0289, eta: 14:26:51, time: 50.5535
+INFO train.py(180): it: 3900/26000, lr: 0.008950, loss: 2.0483, eta: 14:18:34, time: 50.4818
+INFO train.py(180): it: 3950/26000, lr: 0.008932, loss: 2.0940, eta: 14:10:29, time: 50.5455
+INFO train.py(180): it: 4000/26000, lr: 0.008914, loss: 2.0672, eta: 14:02:34, time: 50.4635
+INFO train.py(180): it: 4050/26000, lr: 0.008895, loss: 2.0579, eta: 13:55:03, time: 52.8121
+INFO train.py(180): it: 4100/26000, lr: 0.008877, loss: 2.0943, eta: 13:47:29, time: 50.5681
+INFO train.py(180): it: 4150/26000, lr: 0.008859, loss: 2.0535, eta: 13:40:05, time: 50.5598
+INFO train.py(180): it: 4200/26000, lr: 0.008841, loss: 2.0042, eta: 13:32:50, time: 50.4813
+INFO train.py(180): it: 4250/26000, lr: 0.008822, loss: 2.0556, eta: 13:25:44, time: 50.5376
+INFO train.py(180): it: 4300/26000, lr: 0.008804, loss: 2.1362, eta: 13:18:48, time: 50.6642
+INFO train.py(180): it: 4350/26000, lr: 0.008786, loss: 2.0690, eta: 13:11:59, time: 50.4768
+INFO train.py(180): it: 4400/26000, lr: 0.008768, loss: 1.9444, eta: 13:05:18, time: 50.3287
+INFO train.py(180): it: 4450/26000, lr: 0.008749, loss: 2.0966, eta: 12:58:45, time: 50.5031
+INFO train.py(180): it: 4500/26000, lr: 0.008731, loss: 2.0891, eta: 12:52:20, time: 50.5324
+INFO train.py(180): it: 4550/26000, lr: 0.008713, loss: 2.0506, eta: 12:46:13, time: 52.8464
+INFO train.py(180): it: 4600/26000, lr: 0.008695, loss: 2.0203, eta: 12:40:03, time: 50.5685
+INFO train.py(180): it: 4650/26000, lr: 0.008676, loss: 2.0320, eta: 12:33:59, time: 50.4388
+INFO train.py(180): it: 4700/26000, lr: 0.008658, loss: 2.0467, eta: 12:28:01, time: 50.4416
+INFO train.py(180): it: 4750/26000, lr: 0.008640, loss: 2.0337, eta: 12:22:10, time: 50.4432
+INFO train.py(180): it: 4800/26000, lr: 0.008621, loss: 2.0347, eta: 12:16:26, time: 50.5339
+INFO train.py(180): it: 4850/26000, lr: 0.008603, loss: 2.0027, eta: 12:10:47, time: 50.3666
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.869380 | in iter: 4874
+INFO train.py(180): it: 4900/26000, lr: 0.008585, loss: 2.0438, eta: 15:09:47, time: 2621.2253
+INFO train.py(180): it: 4950/26000, lr: 0.008566, loss: 1.9851, eta: 15:02:02, time: 50.4994
+INFO train.py(180): it: 5000/26000, lr: 0.008548, loss: 2.1804, eta: 14:54:25, time: 50.5090
+INFO train.py(180): it: 5050/26000, lr: 0.008530, loss: 2.1687, eta: 14:47:08, time: 53.0429
+INFO train.py(180): it: 5100/26000, lr: 0.008511, loss: 2.1648, eta: 14:39:47, time: 50.6083
+INFO train.py(180): it: 5150/26000, lr: 0.008493, loss: 2.0744, eta: 14:32:34, time: 50.4743
+INFO train.py(180): it: 5200/26000, lr: 0.008475, loss: 2.0824, eta: 14:25:28, time: 50.5017
+INFO train.py(180): it: 5250/26000, lr: 0.008456, loss: 2.0058, eta: 14:18:29, time: 50.4471
+INFO train.py(180): it: 5300/26000, lr: 0.008438, loss: 1.9988, eta: 14:11:37, time: 50.4198
+INFO train.py(180): it: 5350/26000, lr: 0.008420, loss: 2.0755, eta: 14:04:53, time: 50.5175
+INFO train.py(180): it: 5400/26000, lr: 0.008401, loss: 2.1037, eta: 13:58:14, time: 50.4395
+INFO train.py(180): it: 5450/26000, lr: 0.008383, loss: 2.1352, eta: 13:51:42, time: 50.4203
+INFO train.py(180): it: 5500/26000, lr: 0.008365, loss: 2.0188, eta: 13:45:15, time: 50.3128
+INFO train.py(180): it: 5550/26000, lr: 0.008346, loss: 2.0263, eta: 13:39:04, time: 52.7664
+INFO train.py(180): it: 5600/26000, lr: 0.008328, loss: 1.9835, eta: 13:32:49, time: 50.4090
+INFO train.py(180): it: 5650/26000, lr: 0.008310, loss: 1.9826, eta: 13:26:41, time: 50.3199
+INFO train.py(180): it: 5700/26000, lr: 0.008291, loss: 1.9771, eta: 13:20:37, time: 50.3351
+INFO train.py(180): it: 5750/26000, lr: 0.008273, loss: 2.0457, eta: 13:14:40, time: 50.5144
+INFO train.py(180): it: 5800/26000, lr: 0.008254, loss: 1.9860, eta: 13:08:48, time: 50.4276
+INFO train.py(180): it: 5850/26000, lr: 0.008236, loss: 2.0558, eta: 13:03:01, time: 50.4370
+INFO train.py(180): it: 5900/26000, lr: 0.008218, loss: 2.0325, eta: 12:57:19, time: 50.3025
+INFO train.py(180): it: 5950/26000, lr: 0.008199, loss: 1.9717, eta: 12:51:42, time: 50.3686
+INFO train.py(180): it: 6000/26000, lr: 0.008181, loss: 1.9660, eta: 12:46:09, time: 50.2833
+INFO train.py(180): it: 6050/26000, lr: 0.008162, loss: 1.9571, eta: 12:40:48, time: 52.6301
+INFO train.py(180): it: 6100/26000, lr: 0.008144, loss: 1.9980, eta: 12:35:25, time: 50.3525
+INFO train.py(180): it: 6150/26000, lr: 0.008126, loss: 1.9852, eta: 12:30:06, time: 50.3791
+INFO train.py(180): it: 6200/26000, lr: 0.008107, loss: 1.9946, eta: 12:24:52, time: 50.3549
+INFO train.py(180): it: 6250/26000, lr: 0.008089, loss: 1.9600, eta: 12:19:41, time: 50.4576
+INFO train.py(180): it: 6300/26000, lr: 0.008070, loss: 2.0077, eta: 12:14:35, time: 50.4023
+INFO train.py(180): it: 6350/26000, lr: 0.008052, loss: 2.0434, eta: 12:09:33, time: 50.3567
+INFO train.py(180): it: 6400/26000, lr: 0.008033, loss: 1.9664, eta: 12:04:35, time: 50.3374
+INFO train.py(180): it: 6450/26000, lr: 0.008015, loss: 1.9956, eta: 11:59:40, time: 50.3578
+INFO train.py(180): it: 6500/26000, lr: 0.007997, loss: 1.9802, eta: 11:54:50, time: 50.4342
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.918533 | in iter: 6499
+INFO train.py(180): it: 6550/26000, lr: 0.007978, loss: 2.0136, eta: 13:57:18, time: 2621.0470
+INFO train.py(180): it: 6600/26000, lr: 0.007960, loss: 1.9249, eta: 13:51:18, time: 50.4869
+INFO train.py(180): it: 6650/26000, lr: 0.007941, loss: 1.9771, eta: 13:45:22, time: 50.4277
+INFO train.py(180): it: 6700/26000, lr: 0.007923, loss: 1.9565, eta: 13:39:30, time: 50.4364
+INFO train.py(180): it: 6750/26000, lr: 0.007904, loss: 1.9701, eta: 13:33:43, time: 50.3767
+INFO train.py(180): it: 6800/26000, lr: 0.007886, loss: 1.9943, eta: 13:28:01, time: 50.4012
+INFO train.py(180): it: 6850/26000, lr: 0.007867, loss: 1.9668, eta: 13:22:22, time: 50.4039
+INFO train.py(180): it: 6900/26000, lr: 0.007849, loss: 2.0673, eta: 13:16:48, time: 50.2954
+INFO train.py(180): it: 6950/26000, lr: 0.007830, loss: 2.0100, eta: 13:11:18, time: 50.3811
+INFO train.py(180): it: 7000/26000, lr: 0.007812, loss: 1.9640, eta: 13:05:52, time: 50.4851
+INFO train.py(180): it: 7050/26000, lr: 0.007793, loss: 1.9800, eta: 13:00:36, time: 52.7584
+INFO train.py(180): it: 7100/26000, lr: 0.007775, loss: 1.9668, eta: 12:55:18, time: 50.4051
+INFO train.py(180): it: 7150/26000, lr: 0.007756, loss: 1.9515, eta: 12:50:03, time: 50.4545
+INFO train.py(180): it: 7200/26000, lr: 0.007738, loss: 1.9500, eta: 12:44:52, time: 50.2886
+INFO train.py(180): it: 7250/26000, lr: 0.007719, loss: 2.0230, eta: 12:39:45, time: 50.3744
+INFO train.py(180): it: 7300/26000, lr: 0.007701, loss: 2.0505, eta: 12:34:41, time: 50.4185
+INFO train.py(180): it: 7350/26000, lr: 0.007682, loss: 2.0003, eta: 12:29:40, time: 50.3212
+INFO train.py(180): it: 7400/26000, lr: 0.007664, loss: 1.9375, eta: 12:24:43, time: 50.3245
+INFO train.py(180): it: 7450/26000, lr: 0.007645, loss: 1.9438, eta: 12:19:49, time: 50.3104
+INFO train.py(180): it: 7500/26000, lr: 0.007627, loss: 1.9185, eta: 12:14:58, time: 50.3471
+INFO train.py(180): it: 7550/26000, lr: 0.007608, loss: 2.0177, eta: 12:10:17, time: 52.7596
+INFO train.py(180): it: 7600/26000, lr: 0.007589, loss: 2.0464, eta: 12:05:33, time: 50.4824
+INFO train.py(180): it: 7650/26000, lr: 0.007571, loss: 2.1310, eta: 12:00:52, time: 50.5301
+INFO train.py(180): it: 7700/26000, lr: 0.007552, loss: 2.1353, eta: 11:56:14, time: 50.6285
+INFO train.py(180): it: 7750/26000, lr: 0.007534, loss: 2.0540, eta: 11:51:39, time: 50.3771
+INFO train.py(180): it: 7800/26000, lr: 0.007515, loss: 2.0324, eta: 11:47:07, time: 50.4494
+INFO train.py(180): it: 7850/26000, lr: 0.007497, loss: 2.0310, eta: 11:42:37, time: 50.4487
+INFO train.py(180): it: 7900/26000, lr: 0.007478, loss: 1.9366, eta: 11:38:11, time: 50.3524
+INFO train.py(180): it: 7950/26000, lr: 0.007459, loss: 1.9901, eta: 11:33:46, time: 50.3230
+INFO train.py(180): it: 8000/26000, lr: 0.007441, loss: 1.9163, eta: 11:29:25, time: 50.2936
+INFO train.py(180): it: 8050/26000, lr: 0.007422, loss: 1.9273, eta: 11:25:11, time: 52.5257
+INFO train.py(180): it: 8100/26000, lr: 0.007404, loss: 1.9610, eta: 11:20:54, time: 50.3729
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.909087 | in iter: 8124
+INFO train.py(180): it: 8150/26000, lr: 0.007385, loss: 1.9770, eta: 12:50:28, time: 2619.2207
+INFO train.py(180): it: 8200/26000, lr: 0.007366, loss: 1.9550, eta: 12:45:27, time: 50.4069
+INFO train.py(180): it: 8250/26000, lr: 0.007348, loss: 1.9425, eta: 12:40:29, time: 50.3557
+INFO train.py(180): it: 8300/26000, lr: 0.007329, loss: 2.0210, eta: 12:35:34, time: 50.4993
+INFO train.py(180): it: 8350/26000, lr: 0.007310, loss: 2.1253, eta: 12:30:41, time: 50.3695
+INFO train.py(180): it: 8400/26000, lr: 0.007292, loss: 1.9760, eta: 12:25:52, time: 50.3129
+INFO train.py(180): it: 8450/26000, lr: 0.007273, loss: 1.9929, eta: 12:21:05, time: 50.3371
+INFO train.py(180): it: 8500/26000, lr: 0.007255, loss: 2.0134, eta: 12:16:21, time: 50.2469
+INFO train.py(180): it: 8550/26000, lr: 0.007236, loss: 1.9490, eta: 12:11:45, time: 52.9233
+INFO train.py(180): it: 8600/26000, lr: 0.007217, loss: 1.9268, eta: 12:07:07, time: 50.2192
+INFO train.py(180): it: 8650/26000, lr: 0.007199, loss: 1.9855, eta: 12:02:30, time: 50.1411
+INFO train.py(180): it: 8700/26000, lr: 0.007180, loss: 1.9063, eta: 11:57:57, time: 50.1130
+INFO train.py(180): it: 8750/26000, lr: 0.007161, loss: 1.9965, eta: 11:53:25, time: 50.1111
+INFO train.py(180): it: 8800/26000, lr: 0.007143, loss: 1.9627, eta: 11:48:57, time: 50.0454
+INFO train.py(180): it: 8850/26000, lr: 0.007124, loss: 1.9730, eta: 11:44:30, time: 50.0861
+INFO train.py(180): it: 8900/26000, lr: 0.007105, loss: 1.9997, eta: 11:40:07, time: 50.2336
+INFO train.py(180): it: 8950/26000, lr: 0.007086, loss: 1.9830, eta: 11:35:46, time: 50.1158
+INFO train.py(180): it: 9000/26000, lr: 0.007068, loss: 2.0083, eta: 11:31:27, time: 50.2657
+INFO train.py(180): it: 9050/26000, lr: 0.007049, loss: 1.8840, eta: 11:27:15, time: 52.7653
+INFO train.py(180): it: 9100/26000, lr: 0.007030, loss: 2.0807, eta: 11:23:01, time: 50.2979
+INFO train.py(180): it: 9150/26000, lr: 0.007012, loss: 1.9494, eta: 11:18:49, time: 50.2332
+INFO train.py(180): it: 9200/26000, lr: 0.006993, loss: 2.0079, eta: 11:14:39, time: 50.1020
+INFO train.py(180): it: 9250/26000, lr: 0.006974, loss: 1.9241, eta: 11:10:31, time: 50.1512
+INFO train.py(180): it: 9300/26000, lr: 0.006955, loss: 1.9251, eta: 11:06:25, time: 50.2099
+INFO train.py(180): it: 9350/26000, lr: 0.006937, loss: 2.0915, eta: 11:02:22, time: 50.2182
+INFO train.py(180): it: 9400/26000, lr: 0.006918, loss: 1.9834, eta: 10:58:21, time: 50.2726
+INFO train.py(180): it: 9450/26000, lr: 0.006899, loss: 2.0598, eta: 10:54:21, time: 50.1085
+INFO train.py(180): it: 9500/26000, lr: 0.006880, loss: 2.0449, eta: 10:50:24, time: 50.2820
+INFO train.py(180): it: 9550/26000, lr: 0.006862, loss: 2.0067, eta: 10:46:33, time: 52.6855
+INFO train.py(180): it: 9600/26000, lr: 0.006843, loss: 1.9315, eta: 10:42:39, time: 50.2110
+INFO train.py(180): it: 9650/26000, lr: 0.006824, loss: 2.0030, eta: 10:38:47, time: 50.1530
+INFO train.py(180): it: 9700/26000, lr: 0.006805, loss: 1.9399, eta: 10:34:58, time: 50.2718
+INFO train.py(180): it: 9750/26000, lr: 0.006787, loss: 1.8761, eta: 10:31:09, time: 50.0788
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.758240 | in iter: 9749
+INFO train.py(180): it: 9800/26000, lr: 0.006768, loss: 1.9738, eta: 11:38:06, time: 2616.6305
+INFO train.py(180): it: 9850/26000, lr: 0.006749, loss: 2.1057, eta: 11:33:48, time: 50.2851
+INFO train.py(180): it: 9900/26000, lr: 0.006730, loss: 2.0737, eta: 11:29:31, time: 50.3458
+INFO train.py(180): it: 9950/26000, lr: 0.006711, loss: 1.9586, eta: 11:25:17, time: 50.4147
+INFO train.py(180): it: 10000/26000, lr: 0.006692, loss: 1.9736, eta: 11:21:04, time: 50.2359
+INFO train.py(180): it: 10050/26000, lr: 0.006674, loss: 1.9930, eta: 11:16:57, time: 52.5247
+INFO train.py(180): it: 10100/26000, lr: 0.006655, loss: 1.9067, eta: 11:12:48, time: 50.2950
+INFO train.py(180): it: 10150/26000, lr: 0.006636, loss: 1.9021, eta: 11:08:42, time: 50.3716
+INFO train.py(180): it: 10200/26000, lr: 0.006617, loss: 2.0032, eta: 11:04:37, time: 50.3484
+INFO train.py(180): it: 10250/26000, lr: 0.006598, loss: 1.9405, eta: 11:00:34, time: 50.3494
+INFO train.py(180): it: 10300/26000, lr: 0.006579, loss: 2.0082, eta: 10:56:33, time: 50.2297
+INFO train.py(180): it: 10350/26000, lr: 0.006561, loss: 1.9291, eta: 10:52:34, time: 50.3133
+INFO train.py(180): it: 10400/26000, lr: 0.006542, loss: 1.9070, eta: 10:48:37, time: 50.3203
+INFO train.py(180): it: 10450/26000, lr: 0.006523, loss: 2.0442, eta: 10:44:42, time: 50.3872
+INFO train.py(180): it: 10500/26000, lr: 0.006504, loss: 1.9726, eta: 10:40:48, time: 50.3504
+INFO train.py(180): it: 10550/26000, lr: 0.006485, loss: 1.9622, eta: 10:36:59, time: 52.6566
+INFO train.py(180): it: 10600/26000, lr: 0.006466, loss: 1.9032, eta: 10:33:09, time: 50.1251
+INFO train.py(180): it: 10650/26000, lr: 0.006447, loss: 2.0016, eta: 10:29:20, time: 50.3180
+INFO train.py(180): it: 10700/26000, lr: 0.006428, loss: 2.0555, eta: 10:25:33, time: 50.4174
+INFO train.py(180): it: 10750/26000, lr: 0.006409, loss: 1.9958, eta: 10:21:48, time: 50.4026
+INFO train.py(180): it: 10800/26000, lr: 0.006391, loss: 2.0031, eta: 10:18:05, time: 50.2859
+INFO train.py(180): it: 10850/26000, lr: 0.006372, loss: 1.9305, eta: 10:14:22, time: 50.2011
+INFO train.py(180): it: 10900/26000, lr: 0.006353, loss: 1.9941, eta: 10:10:42, time: 50.5132
+INFO train.py(180): it: 10950/26000, lr: 0.006334, loss: 1.9310, eta: 10:07:03, time: 50.3120
+INFO train.py(180): it: 11000/26000, lr: 0.006315, loss: 1.9539, eta: 10:03:26, time: 50.2218
+INFO train.py(180): it: 11050/26000, lr: 0.006296, loss: 2.0026, eta: 9:59:53, time: 52.7703
+INFO train.py(180): it: 11100/26000, lr: 0.006277, loss: 1.8788, eta: 9:56:19, time: 50.3342
+INFO train.py(180): it: 11150/26000, lr: 0.006258, loss: 1.9263, eta: 9:52:46, time: 50.2869
+INFO train.py(180): it: 11200/26000, lr: 0.006239, loss: 2.0028, eta: 9:49:14, time: 50.3734
+INFO train.py(180): it: 11250/26000, lr: 0.006220, loss: 1.9575, eta: 9:45:44, time: 50.3405
+INFO train.py(180): it: 11300/26000, lr: 0.006201, loss: 1.9446, eta: 9:42:16, time: 50.3292
+INFO train.py(180): it: 11350/26000, lr: 0.006182, loss: 1.9133, eta: 9:38:48, time: 50.3192
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.900528 | in iter: 11374
+INFO train.py(180): it: 11400/26000, lr: 0.006163, loss: 1.8983, eta: 10:30:19, time: 2624.0815
+INFO train.py(180): it: 11450/26000, lr: 0.006144, loss: 1.9454, eta: 10:26:29, time: 50.2148
+INFO train.py(180): it: 11500/26000, lr: 0.006125, loss: 1.9508, eta: 10:22:40, time: 50.3296
+INFO train.py(180): it: 11550/26000, lr: 0.006106, loss: 1.9250, eta: 10:18:57, time: 52.8693
+INFO train.py(180): it: 11600/26000, lr: 0.006087, loss: 1.8823, eta: 10:15:11, time: 50.2571
+INFO train.py(180): it: 11650/26000, lr: 0.006068, loss: 1.9024, eta: 10:11:27, time: 50.3087
+INFO train.py(180): it: 11700/26000, lr: 0.006049, loss: 1.8802, eta: 10:07:44, time: 50.2698
+INFO train.py(180): it: 11750/26000, lr: 0.006030, loss: 1.8129, eta: 10:04:03, time: 50.2934
+INFO train.py(180): it: 11800/26000, lr: 0.006011, loss: 1.9895, eta: 10:00:23, time: 50.3617
+INFO train.py(180): it: 11850/26000, lr: 0.005992, loss: 1.9760, eta: 9:56:45, time: 50.2985
+INFO train.py(180): it: 11900/26000, lr: 0.005973, loss: 1.8632, eta: 9:53:08, time: 50.0964
+INFO train.py(180): it: 11950/26000, lr: 0.005954, loss: 1.8884, eta: 9:49:33, time: 50.1691
+INFO train.py(180): it: 12000/26000, lr: 0.005935, loss: 1.9809, eta: 9:45:58, time: 50.2529
+INFO train.py(180): it: 12050/26000, lr: 0.005916, loss: 1.9440, eta: 9:42:28, time: 52.6298
+INFO train.py(180): it: 12100/26000, lr: 0.005897, loss: 1.9295, eta: 9:38:57, time: 50.2582
+INFO train.py(180): it: 12150/26000, lr: 0.005877, loss: 1.8732, eta: 9:35:27, time: 50.2430
+INFO train.py(180): it: 12200/26000, lr: 0.005858, loss: 1.9110, eta: 9:31:58, time: 50.2676
+INFO train.py(180): it: 12250/26000, lr: 0.005839, loss: 1.8580, eta: 9:28:30, time: 50.0956
+INFO train.py(180): it: 12300/26000, lr: 0.005820, loss: 2.0187, eta: 9:25:04, time: 50.2571
+INFO train.py(180): it: 12350/26000, lr: 0.005801, loss: 2.0111, eta: 9:21:39, time: 50.2517
+INFO train.py(180): it: 12400/26000, lr: 0.005782, loss: 1.9635, eta: 9:18:15, time: 50.1508
+INFO train.py(180): it: 12450/26000, lr: 0.005763, loss: 1.9883, eta: 9:14:53, time: 50.1454
+INFO train.py(180): it: 12500/26000, lr: 0.005744, loss: 1.9174, eta: 9:11:32, time: 50.2780
+INFO train.py(180): it: 12550/26000, lr: 0.005724, loss: 1.8912, eta: 9:08:14, time: 52.6468
+INFO train.py(180): it: 12600/26000, lr: 0.005705, loss: 1.8393, eta: 9:04:55, time: 50.0569
+INFO train.py(180): it: 12650/26000, lr: 0.005686, loss: 1.8898, eta: 9:01:37, time: 50.1533
+INFO train.py(180): it: 12700/26000, lr: 0.005667, loss: 1.9539, eta: 8:58:21, time: 50.2212
+INFO train.py(180): it: 12750/26000, lr: 0.005648, loss: 1.8818, eta: 8:55:05, time: 50.1163
+INFO train.py(180): it: 12800/26000, lr: 0.005629, loss: 1.8327, eta: 8:51:51, time: 50.0324
+INFO train.py(180): it: 12850/26000, lr: 0.005609, loss: 1.9622, eta: 8:48:38, time: 50.2842
+INFO train.py(180): it: 12900/26000, lr: 0.005590, loss: 1.8913, eta: 8:45:25, time: 50.2279
+INFO train.py(180): it: 12950/26000, lr: 0.005571, loss: 1.8788, eta: 8:42:15, time: 50.3725
+INFO train.py(180): it: 13000/26000, lr: 0.005552, loss: 1.8928, eta: 8:39:05, time: 50.2308
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.908325 | in iter: 12999
+INFO train.py(180): it: 13050/26000, lr: 0.005533, loss: 1.9247, eta: 9:18:25, time: 2618.6573
+INFO train.py(180): it: 13100/26000, lr: 0.005513, loss: 1.8600, eta: 9:14:58, time: 50.1724
+INFO train.py(180): it: 13150/26000, lr: 0.005494, loss: 1.9267, eta: 9:11:32, time: 50.2433
+INFO train.py(180): it: 13200/26000, lr: 0.005475, loss: 1.8293, eta: 9:08:07, time: 50.2654
+INFO train.py(180): it: 13250/26000, lr: 0.005456, loss: 1.8613, eta: 9:04:43, time: 50.0603
+INFO train.py(180): it: 13300/26000, lr: 0.005436, loss: 1.8930, eta: 9:01:20, time: 50.2022
+INFO train.py(180): it: 13350/26000, lr: 0.005417, loss: 1.9116, eta: 8:57:59, time: 50.2211
+INFO train.py(180): it: 13400/26000, lr: 0.005398, loss: 1.8924, eta: 8:54:38, time: 50.0911
+INFO train.py(180): it: 13450/26000, lr: 0.005379, loss: 1.9082, eta: 8:51:19, time: 50.0842
+INFO train.py(180): it: 13500/26000, lr: 0.005359, loss: 1.9879, eta: 8:48:01, time: 50.1329
+INFO train.py(180): it: 13550/26000, lr: 0.005340, loss: 1.9285, eta: 8:44:46, time: 52.9471
+INFO train.py(180): it: 13600/26000, lr: 0.005321, loss: 1.9890, eta: 8:41:30, time: 50.2001
+INFO train.py(180): it: 13650/26000, lr: 0.005301, loss: 2.0449, eta: 8:38:16, time: 50.2282
+INFO train.py(180): it: 13700/26000, lr: 0.005282, loss: 1.9110, eta: 8:35:02, time: 50.2822
+INFO train.py(180): it: 13750/26000, lr: 0.005263, loss: 1.9454, eta: 8:31:49, time: 50.1575
+INFO train.py(180): it: 13800/26000, lr: 0.005243, loss: 1.8790, eta: 8:28:37, time: 50.1093
+INFO train.py(180): it: 13850/26000, lr: 0.005224, loss: 1.9548, eta: 8:25:26, time: 50.1284
+INFO train.py(180): it: 13900/26000, lr: 0.005205, loss: 1.7627, eta: 8:22:17, time: 50.2204
+INFO train.py(180): it: 13950/26000, lr: 0.005185, loss: 1.8888, eta: 8:19:08, time: 50.0953
+INFO train.py(180): it: 14000/26000, lr: 0.005166, loss: 1.9135, eta: 8:16:00, time: 50.0558
+INFO train.py(180): it: 14050/26000, lr: 0.005147, loss: 1.8803, eta: 8:12:55, time: 52.3800
+INFO train.py(180): it: 14100/26000, lr: 0.005127, loss: 1.9651, eta: 8:09:49, time: 50.1805
+INFO train.py(180): it: 14150/26000, lr: 0.005108, loss: 1.8631, eta: 8:06:44, time: 50.1832
+INFO train.py(180): it: 14200/26000, lr: 0.005088, loss: 1.9235, eta: 8:03:40, time: 50.1831
+INFO train.py(180): it: 14250/26000, lr: 0.005069, loss: 1.9196, eta: 8:00:37, time: 50.2763
+INFO train.py(180): it: 14300/26000, lr: 0.005050, loss: 1.8533, eta: 7:57:35, time: 50.2877
+INFO train.py(180): it: 14350/26000, lr: 0.005030, loss: 1.8557, eta: 7:54:34, time: 50.0690
+INFO train.py(180): it: 14400/26000, lr: 0.005011, loss: 2.0001, eta: 7:51:34, time: 50.1592
+INFO train.py(180): it: 14450/26000, lr: 0.004991, loss: 1.7533, eta: 7:48:35, time: 50.1912
+INFO train.py(180): it: 14500/26000, lr: 0.004972, loss: 1.9298, eta: 7:45:36, time: 50.1203
+INFO train.py(180): it: 14550/26000, lr: 0.004952, loss: 1.8674, eta: 7:42:41, time: 52.6311
+INFO train.py(180): it: 14600/26000, lr: 0.004933, loss: 1.8738, eta: 7:39:44, time: 50.1206
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.964703 | in iter: 14624
+INFO train.py(180): it: 14650/26000, lr: 0.004913, loss: 1.7535, eta: 8:09:45, time: 2601.3047
+INFO train.py(180): it: 14700/26000, lr: 0.004894, loss: 1.8595, eta: 8:06:35, time: 50.2850
+INFO train.py(180): it: 14750/26000, lr: 0.004874, loss: 1.8488, eta: 8:03:25, time: 50.3699
+INFO train.py(180): it: 14800/26000, lr: 0.004855, loss: 1.8724, eta: 8:00:17, time: 50.2988
+INFO train.py(180): it: 14850/26000, lr: 0.004835, loss: 1.7093, eta: 7:57:09, time: 50.2143
+INFO train.py(180): it: 14900/26000, lr: 0.004816, loss: 1.8826, eta: 7:54:03, time: 50.2645
+INFO train.py(180): it: 14950/26000, lr: 0.004796, loss: 1.8489, eta: 7:50:57, time: 50.3069
+INFO train.py(180): it: 15000/26000, lr: 0.004777, loss: 1.9186, eta: 7:47:52, time: 50.2055
+INFO train.py(180): it: 15050/26000, lr: 0.004757, loss: 1.8055, eta: 7:44:50, time: 52.9561
+INFO train.py(180): it: 15100/26000, lr: 0.004738, loss: 1.7184, eta: 7:41:47, time: 50.2406
+INFO train.py(180): it: 15150/26000, lr: 0.004718, loss: 1.9111, eta: 7:38:45, time: 50.2528
+INFO train.py(180): it: 15200/26000, lr: 0.004699, loss: 1.8423, eta: 7:35:44, time: 50.2945
+INFO train.py(180): it: 15250/26000, lr: 0.004679, loss: 1.9901, eta: 7:32:44, time: 50.3283
+INFO train.py(180): it: 15300/26000, lr: 0.004659, loss: 1.9084, eta: 7:29:44, time: 50.2645
+INFO train.py(180): it: 15350/26000, lr: 0.004640, loss: 1.8387, eta: 7:26:45, time: 50.2153
+INFO train.py(180): it: 15400/26000, lr: 0.004620, loss: 1.7941, eta: 7:23:48, time: 50.3132
+INFO train.py(180): it: 15450/26000, lr: 0.004601, loss: 1.8998, eta: 7:20:51, time: 50.2433
+INFO train.py(180): it: 15500/26000, lr: 0.004581, loss: 1.7799, eta: 7:17:54, time: 50.0932
+INFO train.py(180): it: 15550/26000, lr: 0.004561, loss: 1.8231, eta: 7:15:00, time: 52.4926
+INFO train.py(180): it: 15600/26000, lr: 0.004542, loss: 1.9662, eta: 7:12:06, time: 50.1827
+INFO train.py(180): it: 15650/26000, lr: 0.004522, loss: 1.8407, eta: 7:09:12, time: 50.1399
+INFO train.py(180): it: 15700/26000, lr: 0.004502, loss: 1.8537, eta: 7:06:19, time: 50.2173
+INFO train.py(180): it: 15750/26000, lr: 0.004483, loss: 1.8686, eta: 7:03:26, time: 50.1065
+INFO train.py(180): it: 15800/26000, lr: 0.004463, loss: 1.8767, eta: 7:00:35, time: 50.1659
+INFO train.py(180): it: 15850/26000, lr: 0.004443, loss: 1.7922, eta: 6:57:44, time: 50.2186
+INFO train.py(180): it: 15900/26000, lr: 0.004424, loss: 1.8378, eta: 6:54:54, time: 50.0944
+INFO train.py(180): it: 15950/26000, lr: 0.004404, loss: 1.8896, eta: 6:52:05, time: 50.1485
+INFO train.py(180): it: 16000/26000, lr: 0.004384, loss: 1.8627, eta: 6:49:16, time: 50.1368
+INFO train.py(180): it: 16050/26000, lr: 0.004364, loss: 1.8023, eta: 6:46:30, time: 52.5112
+INFO train.py(180): it: 16100/26000, lr: 0.004345, loss: 1.8111, eta: 6:43:43, time: 50.2316
+INFO train.py(180): it: 16150/26000, lr: 0.004325, loss: 1.8401, eta: 6:40:56, time: 50.1239
+INFO train.py(180): it: 16200/26000, lr: 0.004305, loss: 1.9450, eta: 6:38:11, time: 50.1917
+INFO train.py(180): it: 16250/26000, lr: 0.004285, loss: 1.7231, eta: 6:35:26, time: 50.2179
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.922525 | in iter: 16249
+INFO train.py(180): it: 16300/26000, lr: 0.004266, loss: 1.8292, eta: 6:57:56, time: 2595.2861
+INFO train.py(180): it: 16350/26000, lr: 0.004246, loss: 1.7300, eta: 6:55:01, time: 50.1177
+INFO train.py(180): it: 16400/26000, lr: 0.004226, loss: 1.8424, eta: 6:52:05, time: 50.0768
+INFO train.py(180): it: 16450/26000, lr: 0.004206, loss: 1.8114, eta: 6:49:11, time: 50.0758
+INFO train.py(180): it: 16500/26000, lr: 0.004186, loss: 1.7257, eta: 6:46:17, time: 50.0748
+INFO train.py(180): it: 16550/26000, lr: 0.004167, loss: 1.9200, eta: 6:43:26, time: 52.3994
+INFO train.py(180): it: 16600/26000, lr: 0.004147, loss: 1.8439, eta: 6:40:33, time: 50.2410
+INFO train.py(180): it: 16650/26000, lr: 0.004127, loss: 1.7906, eta: 6:37:42, time: 50.1048
+INFO train.py(180): it: 16700/26000, lr: 0.004107, loss: 1.7606, eta: 6:34:51, time: 50.1294
+INFO train.py(180): it: 16750/26000, lr: 0.004087, loss: 1.7879, eta: 6:32:01, time: 50.0790
+INFO train.py(180): it: 16800/26000, lr: 0.004067, loss: 1.7866, eta: 6:29:12, time: 50.0553
+INFO train.py(180): it: 16850/26000, lr: 0.004047, loss: 1.7600, eta: 6:26:23, time: 50.0463
+INFO train.py(180): it: 16900/26000, lr: 0.004027, loss: 1.8906, eta: 6:23:35, time: 50.1314
+INFO train.py(180): it: 16950/26000, lr: 0.004008, loss: 1.7481, eta: 6:20:48, time: 50.1115
+INFO train.py(180): it: 17000/26000, lr: 0.003988, loss: 1.7625, eta: 6:18:01, time: 50.0504
+INFO train.py(180): it: 17050/26000, lr: 0.003968, loss: 1.7751, eta: 6:15:17, time: 52.3403
+INFO train.py(180): it: 17100/26000, lr: 0.003948, loss: 1.6276, eta: 6:12:32, time: 50.1082
+INFO train.py(180): it: 17150/26000, lr: 0.003928, loss: 1.8502, eta: 6:09:47, time: 50.0450
+INFO train.py(180): it: 17200/26000, lr: 0.003908, loss: 1.7209, eta: 6:07:03, time: 50.1066
+INFO train.py(180): it: 17250/26000, lr: 0.003888, loss: 1.8341, eta: 6:04:20, time: 50.0707
+INFO train.py(180): it: 17300/26000, lr: 0.003868, loss: 1.9168, eta: 6:01:38, time: 50.0950
+INFO train.py(180): it: 17350/26000, lr: 0.003848, loss: 1.7892, eta: 5:58:56, time: 50.0554
+INFO train.py(180): it: 17400/26000, lr: 0.003828, loss: 1.7357, eta: 5:56:14, time: 50.0876
+INFO train.py(180): it: 17450/26000, lr: 0.003808, loss: 1.7749, eta: 5:53:34, time: 50.1063
+INFO train.py(180): it: 17500/26000, lr: 0.003788, loss: 1.8760, eta: 5:50:54, time: 50.1205
+INFO train.py(180): it: 17550/26000, lr: 0.003768, loss: 1.8749, eta: 5:48:16, time: 52.4925
+INFO train.py(180): it: 17600/26000, lr: 0.003748, loss: 1.7624, eta: 5:45:37, time: 50.1106
+INFO train.py(180): it: 17650/26000, lr: 0.003728, loss: 1.7271, eta: 5:42:59, time: 50.2176
+INFO train.py(180): it: 17700/26000, lr: 0.003707, loss: 1.7507, eta: 5:40:21, time: 50.2170
+INFO train.py(180): it: 17750/26000, lr: 0.003687, loss: 1.8382, eta: 5:37:44, time: 50.0636
+INFO train.py(180): it: 17800/26000, lr: 0.003667, loss: 1.8342, eta: 5:35:08, time: 50.1185
+INFO train.py(180): it: 17850/26000, lr: 0.003647, loss: 1.8151, eta: 5:32:32, time: 50.0991
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.946245 | in iter: 17874
+INFO train.py(180): it: 17900/26000, lr: 0.003627, loss: 1.9306, eta: 5:49:09, time: 2593.6874
+INFO train.py(180): it: 17950/26000, lr: 0.003607, loss: 1.7385, eta: 5:46:24, time: 50.3065
+INFO train.py(180): it: 18000/26000, lr: 0.003587, loss: 1.6807, eta: 5:43:40, time: 50.1817
+INFO train.py(180): it: 18050/26000, lr: 0.003566, loss: 1.6782, eta: 5:40:57, time: 52.5589
+INFO train.py(180): it: 18100/26000, lr: 0.003546, loss: 1.8406, eta: 5:38:14, time: 50.2658
+INFO train.py(180): it: 18150/26000, lr: 0.003526, loss: 1.7001, eta: 5:35:32, time: 50.1628
+INFO train.py(180): it: 18200/26000, lr: 0.003506, loss: 1.9601, eta: 5:32:50, time: 50.2454
+INFO train.py(180): it: 18250/26000, lr: 0.003486, loss: 1.7282, eta: 5:30:09, time: 50.2114
+INFO train.py(180): it: 18300/26000, lr: 0.003465, loss: 1.8488, eta: 5:27:29, time: 50.2816
+INFO train.py(180): it: 18350/26000, lr: 0.003445, loss: 1.8252, eta: 5:24:49, time: 50.2298
+INFO train.py(180): it: 18400/26000, lr: 0.003425, loss: 1.7203, eta: 5:22:10, time: 50.1931
+INFO train.py(180): it: 18450/26000, lr: 0.003405, loss: 1.7103, eta: 5:19:31, time: 50.1280
+INFO train.py(180): it: 18500/26000, lr: 0.003384, loss: 1.8030, eta: 5:16:53, time: 50.2223
+INFO train.py(180): it: 18550/26000, lr: 0.003364, loss: 1.8082, eta: 5:14:17, time: 52.6307
+INFO train.py(180): it: 18600/26000, lr: 0.003344, loss: 1.7574, eta: 5:11:40, time: 50.1770
+INFO train.py(180): it: 18650/26000, lr: 0.003323, loss: 1.8205, eta: 5:09:03, time: 50.1982
+INFO train.py(180): it: 18700/26000, lr: 0.003303, loss: 1.7506, eta: 5:06:28, time: 50.2039
+INFO train.py(180): it: 18750/26000, lr: 0.003283, loss: 1.7929, eta: 5:03:52, time: 50.2344
+INFO train.py(180): it: 18800/26000, lr: 0.003262, loss: 1.6191, eta: 5:01:18, time: 50.0825
+INFO train.py(180): it: 18850/26000, lr: 0.003242, loss: 1.7556, eta: 4:58:44, time: 50.2244
+INFO train.py(180): it: 18900/26000, lr: 0.003221, loss: 1.7047, eta: 4:56:10, time: 50.1763
+INFO train.py(180): it: 18950/26000, lr: 0.003201, loss: 1.7452, eta: 4:53:37, time: 50.1269
+INFO train.py(180): it: 19000/26000, lr: 0.003181, loss: 1.9060, eta: 4:51:05, time: 50.2518
+INFO train.py(180): it: 19050/26000, lr: 0.003160, loss: 1.7441, eta: 4:48:34, time: 52.8286
+INFO train.py(180): it: 19100/26000, lr: 0.003140, loss: 1.7064, eta: 4:46:02, time: 50.1978
+INFO train.py(180): it: 19150/26000, lr: 0.003119, loss: 1.6450, eta: 4:43:31, time: 50.2044
+INFO train.py(180): it: 19200/26000, lr: 0.003099, loss: 1.6810, eta: 4:41:01, time: 50.1626
+INFO train.py(180): it: 19250/26000, lr: 0.003078, loss: 1.8036, eta: 4:38:31, time: 50.2484
+INFO train.py(180): it: 19300/26000, lr: 0.003058, loss: 1.7356, eta: 4:36:02, time: 50.1739
+INFO train.py(180): it: 19350/26000, lr: 0.003037, loss: 1.8921, eta: 4:33:33, time: 50.2458
+INFO train.py(180): it: 19400/26000, lr: 0.003016, loss: 1.7026, eta: 4:31:05, time: 50.1472
+INFO train.py(180): it: 19450/26000, lr: 0.002996, loss: 1.6274, eta: 4:28:37, time: 50.1062
+INFO train.py(180): it: 19500/26000, lr: 0.002975, loss: 1.6955, eta: 4:26:10, time: 50.2208
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.958684 | in iter: 19499
+INFO train.py(180): it: 19550/26000, lr: 0.002955, loss: 1.7429, eta: 4:37:43, time: 2596.3082
+INFO train.py(180): it: 19600/26000, lr: 0.002934, loss: 1.9136, eta: 4:35:08, time: 50.2295
+INFO train.py(180): it: 19650/26000, lr: 0.002913, loss: 1.8944, eta: 4:32:34, time: 50.2805
+INFO train.py(180): it: 19700/26000, lr: 0.002893, loss: 1.7132, eta: 4:30:00, time: 50.2522
+INFO train.py(180): it: 19750/26000, lr: 0.002872, loss: 1.7317, eta: 4:27:26, time: 50.1821
+INFO train.py(180): it: 19800/26000, lr: 0.002851, loss: 1.7608, eta: 4:24:54, time: 50.2643
+INFO train.py(180): it: 19850/26000, lr: 0.002831, loss: 1.8475, eta: 4:22:21, time: 50.2332
+INFO train.py(180): it: 19900/26000, lr: 0.002810, loss: 1.7256, eta: 4:19:50, time: 50.2072
+INFO train.py(180): it: 19950/26000, lr: 0.002789, loss: 1.9147, eta: 4:17:18, time: 50.2699
+INFO train.py(180): it: 20000/26000, lr: 0.002769, loss: 1.7766, eta: 4:14:47, time: 50.1531
+INFO train.py(180): it: 20050/26000, lr: 0.002748, loss: 1.7698, eta: 4:12:18, time: 52.3467
+INFO train.py(180): it: 20100/26000, lr: 0.002727, loss: 1.7711, eta: 4:09:48, time: 50.2355
+INFO train.py(180): it: 20150/26000, lr: 0.002706, loss: 1.8098, eta: 4:07:19, time: 50.2400
+INFO train.py(180): it: 20200/26000, lr: 0.002685, loss: 1.7576, eta: 4:04:50, time: 50.2211
+INFO train.py(180): it: 20250/26000, lr: 0.002665, loss: 1.6192, eta: 4:02:22, time: 50.2355
+INFO train.py(180): it: 20300/26000, lr: 0.002644, loss: 1.6820, eta: 3:59:54, time: 50.1958
+INFO train.py(180): it: 20350/26000, lr: 0.002623, loss: 1.8968, eta: 3:57:26, time: 50.1588
+INFO train.py(180): it: 20400/26000, lr: 0.002602, loss: 1.6879, eta: 3:55:00, time: 50.2227
+INFO train.py(180): it: 20450/26000, lr: 0.002581, loss: 1.7259, eta: 3:52:33, time: 50.2356
+INFO train.py(180): it: 20500/26000, lr: 0.002560, loss: 1.7661, eta: 3:50:07, time: 50.2078
+INFO train.py(180): it: 20550/26000, lr: 0.002539, loss: 1.8258, eta: 3:47:42, time: 52.7540
+INFO train.py(180): it: 20600/26000, lr: 0.002518, loss: 1.6755, eta: 3:45:17, time: 50.1743
+INFO train.py(180): it: 20650/26000, lr: 0.002497, loss: 1.7815, eta: 3:42:53, time: 50.2222
+INFO train.py(180): it: 20700/26000, lr: 0.002476, loss: 1.8386, eta: 3:40:29, time: 50.1715
+INFO train.py(180): it: 20750/26000, lr: 0.002455, loss: 1.7146, eta: 3:38:05, time: 50.1767
+INFO train.py(180): it: 20800/26000, lr: 0.002434, loss: 1.7058, eta: 3:35:42, time: 50.1897
+INFO train.py(180): it: 20850/26000, lr: 0.002413, loss: 1.7084, eta: 3:33:19, time: 50.1914
+INFO train.py(180): it: 20900/26000, lr: 0.002392, loss: 1.7642, eta: 3:30:57, time: 50.2550
+INFO train.py(180): it: 20950/26000, lr: 0.002371, loss: 1.6747, eta: 3:28:35, time: 50.1267
+INFO train.py(180): it: 21000/26000, lr: 0.002350, loss: 1.7514, eta: 3:26:13, time: 50.2190
+INFO train.py(180): it: 21050/26000, lr: 0.002329, loss: 1.6805, eta: 3:23:53, time: 52.6440
+INFO train.py(180): it: 21100/26000, lr: 0.002307, loss: 1.6700, eta: 3:21:32, time: 50.1371
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.960429 | in iter: 21124
+INFO train.py(180): it: 21150/26000, lr: 0.002286, loss: 1.6652, eta: 3:28:56, time: 2594.2569
+INFO train.py(180): it: 21200/26000, lr: 0.002265, loss: 1.6909, eta: 3:26:29, time: 50.2715
+INFO train.py(180): it: 21250/26000, lr: 0.002244, loss: 1.6908, eta: 3:24:02, time: 50.1649
+INFO train.py(180): it: 21300/26000, lr: 0.002222, loss: 1.7617, eta: 3:21:36, time: 50.0986
+INFO train.py(180): it: 21350/26000, lr: 0.002201, loss: 1.7160, eta: 3:19:10, time: 50.2147
+INFO train.py(180): it: 21400/26000, lr: 0.002180, loss: 1.7865, eta: 3:16:45, time: 50.1570
+INFO train.py(180): it: 21450/26000, lr: 0.002158, loss: 1.6439, eta: 3:14:20, time: 50.1036
+INFO train.py(180): it: 21500/26000, lr: 0.002137, loss: 1.6916, eta: 3:11:55, time: 50.2216
+INFO train.py(180): it: 21550/26000, lr: 0.002116, loss: 1.6154, eta: 3:09:32, time: 52.4440
+INFO train.py(180): it: 21600/26000, lr: 0.002094, loss: 1.6633, eta: 3:07:08, time: 50.0904
+INFO train.py(180): it: 21650/26000, lr: 0.002073, loss: 1.5927, eta: 3:04:45, time: 50.0593
+INFO train.py(180): it: 21700/26000, lr: 0.002051, loss: 1.7974, eta: 3:02:23, time: 50.1812
+INFO train.py(180): it: 21750/26000, lr: 0.002030, loss: 1.7482, eta: 3:00:00, time: 50.2248
+INFO train.py(180): it: 21800/26000, lr: 0.002008, loss: 1.7321, eta: 2:57:38, time: 50.1429
+INFO train.py(180): it: 21850/26000, lr: 0.001987, loss: 1.6123, eta: 2:55:17, time: 50.2233
+INFO train.py(180): it: 21900/26000, lr: 0.001965, loss: 1.7998, eta: 2:52:56, time: 50.1366
+INFO train.py(180): it: 21950/26000, lr: 0.001944, loss: 1.6287, eta: 2:50:35, time: 50.2026
+INFO train.py(180): it: 22000/26000, lr: 0.001922, loss: 1.7255, eta: 2:48:15, time: 50.2220
+INFO train.py(180): it: 22050/26000, lr: 0.001901, loss: 1.5990, eta: 2:45:56, time: 52.5649
+INFO train.py(180): it: 22100/26000, lr: 0.001879, loss: 1.7296, eta: 2:43:36, time: 50.1260
+INFO train.py(180): it: 22150/26000, lr: 0.001857, loss: 1.6193, eta: 2:41:17, time: 50.2317
+INFO train.py(180): it: 22200/26000, lr: 0.001836, loss: 1.7401, eta: 2:38:59, time: 50.1493
+INFO train.py(180): it: 22250/26000, lr: 0.001814, loss: 1.7065, eta: 2:36:41, time: 50.1849
+INFO train.py(180): it: 22300/26000, lr: 0.001792, loss: 1.7538, eta: 2:34:23, time: 50.2087
+INFO train.py(180): it: 22350/26000, lr: 0.001770, loss: 1.6339, eta: 2:32:06, time: 50.1124
+INFO train.py(180): it: 22400/26000, lr: 0.001748, loss: 1.6945, eta: 2:29:49, time: 50.2329
+INFO train.py(180): it: 22450/26000, lr: 0.001727, loss: 1.6402, eta: 2:27:32, time: 50.2045
+INFO train.py(180): it: 22500/26000, lr: 0.001705, loss: 1.6516, eta: 2:25:16, time: 50.2090
+INFO train.py(180): it: 22550/26000, lr: 0.001683, loss: 1.5932, eta: 2:23:00, time: 52.7894
+INFO train.py(180): it: 22600/26000, lr: 0.001661, loss: 1.7045, eta: 2:20:45, time: 50.1922
+INFO train.py(180): it: 22650/26000, lr: 0.001639, loss: 1.6500, eta: 2:18:30, time: 50.0738
+INFO train.py(180): it: 22700/26000, lr: 0.001617, loss: 1.8541, eta: 2:16:15, time: 50.1412
+INFO train.py(180): it: 22750/26000, lr: 0.001595, loss: 1.6296, eta: 2:14:01, time: 50.2289
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.966127 | in iter: 22749
+INFO train.py(180): it: 22800/26000, lr: 0.001573, loss: 1.7171, eta: 2:17:44, time: 2596.5506
+INFO train.py(180): it: 22850/26000, lr: 0.001550, loss: 1.5692, eta: 2:15:24, time: 50.1633
+INFO train.py(180): it: 22900/26000, lr: 0.001528, loss: 1.8237, eta: 2:13:05, time: 50.2508
+INFO train.py(180): it: 22950/26000, lr: 0.001506, loss: 1.6422, eta: 2:10:45, time: 50.2395
+INFO train.py(180): it: 23000/26000, lr: 0.001484, loss: 1.7278, eta: 2:08:27, time: 50.2170
+INFO train.py(180): it: 23050/26000, lr: 0.001462, loss: 1.6360, eta: 2:06:08, time: 52.5406
+INFO train.py(180): it: 23100/26000, lr: 0.001439, loss: 1.7181, eta: 2:03:50, time: 50.2356
+INFO train.py(180): it: 23150/26000, lr: 0.001417, loss: 1.6378, eta: 2:01:33, time: 50.2316
+INFO train.py(180): it: 23200/26000, lr: 0.001395, loss: 1.7287, eta: 1:59:15, time: 50.2320
+INFO train.py(180): it: 23250/26000, lr: 0.001372, loss: 1.7041, eta: 1:56:58, time: 50.1753
+INFO train.py(180): it: 23300/26000, lr: 0.001350, loss: 1.6243, eta: 1:54:42, time: 50.2563
+INFO train.py(180): it: 23350/26000, lr: 0.001327, loss: 1.6532, eta: 1:52:26, time: 50.2027
+INFO train.py(180): it: 23400/26000, lr: 0.001305, loss: 1.6035, eta: 1:50:10, time: 50.2436
+INFO train.py(180): it: 23450/26000, lr: 0.001282, loss: 1.6544, eta: 1:47:55, time: 50.1502
+INFO train.py(180): it: 23500/26000, lr: 0.001259, loss: 1.6945, eta: 1:45:39, time: 50.2174
+INFO train.py(180): it: 23550/26000, lr: 0.001237, loss: 1.7458, eta: 1:43:25, time: 52.4458
+INFO train.py(180): it: 23600/26000, lr: 0.001214, loss: 1.5603, eta: 1:41:11, time: 50.2236
+INFO train.py(180): it: 23650/26000, lr: 0.001191, loss: 1.5789, eta: 1:38:57, time: 50.1670
+INFO train.py(180): it: 23700/26000, lr: 0.001168, loss: 1.5825, eta: 1:36:43, time: 50.2652
+INFO train.py(180): it: 23750/26000, lr: 0.001145, loss: 1.7312, eta: 1:34:30, time: 50.2341
+INFO train.py(180): it: 23800/26000, lr: 0.001123, loss: 1.5945, eta: 1:32:17, time: 50.2196
+INFO train.py(180): it: 23850/26000, lr: 0.001100, loss: 1.6936, eta: 1:30:04, time: 50.1490
+INFO train.py(180): it: 23900/26000, lr: 0.001077, loss: 1.5824, eta: 1:27:52, time: 50.1895
+INFO train.py(180): it: 23950/26000, lr: 0.001053, loss: 1.6544, eta: 1:25:40, time: 50.1922
+INFO train.py(180): it: 24000/26000, lr: 0.001030, loss: 1.5868, eta: 1:23:28, time: 50.2697
+INFO train.py(180): it: 24050/26000, lr: 0.001007, loss: 1.4968, eta: 1:21:17, time: 52.4895
+INFO train.py(180): it: 24100/26000, lr: 0.000984, loss: 1.6033, eta: 1:19:06, time: 50.1836
+INFO train.py(180): it: 24150/26000, lr: 0.000961, loss: 1.7706, eta: 1:16:56, time: 50.2533
+INFO train.py(180): it: 24200/26000, lr: 0.000937, loss: 1.6152, eta: 1:14:46, time: 50.1939
+INFO train.py(180): it: 24250/26000, lr: 0.000914, loss: 1.6072, eta: 1:12:36, time: 50.2264
+INFO train.py(180): it: 24300/26000, lr: 0.000890, loss: 1.6529, eta: 1:10:26, time: 50.1281
+INFO train.py(180): it: 24350/26000, lr: 0.000867, loss: 1.6559, eta: 1:08:17, time: 50.1524
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.967311 | in iter: 24374
+INFO train.py(180): it: 24400/26000, lr: 0.000843, loss: 1.5698, eta: 1:08:55, time: 2594.7283
+INFO train.py(180): it: 24450/26000, lr: 0.000819, loss: 1.7031, eta: 1:06:41, time: 50.2435
+INFO train.py(180): it: 24500/26000, lr: 0.000795, loss: 1.5401, eta: 1:04:27, time: 50.2187
+INFO train.py(180): it: 24550/26000, lr: 0.000772, loss: 1.6048, eta: 1:02:14, time: 52.3663
+INFO train.py(180): it: 24600/26000, lr: 0.000748, loss: 1.5993, eta: 1:00:00, time: 50.2301
+INFO train.py(180): it: 24650/26000, lr: 0.000724, loss: 1.5840, eta: 0:57:48, time: 50.1756
+INFO train.py(180): it: 24700/26000, lr: 0.000699, loss: 1.5042, eta: 0:55:35, time: 50.2391
+INFO train.py(180): it: 24750/26000, lr: 0.000675, loss: 1.5767, eta: 0:53:23, time: 50.2903
+INFO train.py(180): it: 24800/26000, lr: 0.000651, loss: 1.5935, eta: 0:51:11, time: 50.1631
+INFO train.py(180): it: 24850/26000, lr: 0.000626, loss: 1.8015, eta: 0:49:00, time: 50.2341
+INFO train.py(180): it: 24900/26000, lr: 0.000602, loss: 1.4922, eta: 0:46:49, time: 50.1960
+INFO train.py(180): it: 24950/26000, lr: 0.000577, loss: 1.4982, eta: 0:44:38, time: 50.1133
+INFO train.py(180): it: 25000/26000, lr: 0.000552, loss: 1.6321, eta: 0:42:27, time: 50.2575
+INFO train.py(180): it: 25050/26000, lr: 0.000527, loss: 1.5500, eta: 0:40:17, time: 52.5487
+INFO train.py(180): it: 25100/26000, lr: 0.000502, loss: 1.5854, eta: 0:38:07, time: 50.2376
+INFO train.py(180): it: 25150/26000, lr: 0.000477, loss: 1.6227, eta: 0:35:58, time: 50.2245
+INFO train.py(180): it: 25200/26000, lr: 0.000452, loss: 1.6342, eta: 0:33:48, time: 50.2570
+INFO train.py(180): it: 25250/26000, lr: 0.000427, loss: 1.7079, eta: 0:31:40, time: 50.1715
+INFO train.py(180): it: 25300/26000, lr: 0.000401, loss: 1.6272, eta: 0:29:31, time: 50.1277
+INFO train.py(180): it: 25350/26000, lr: 0.000375, loss: 1.5849, eta: 0:27:23, time: 50.2158
+INFO train.py(180): it: 25400/26000, lr: 0.000349, loss: 1.5472, eta: 0:25:15, time: 50.1668
+INFO train.py(180): it: 25450/26000, lr: 0.000323, loss: 1.6642, eta: 0:23:07, time: 50.2403
+INFO train.py(180): it: 25500/26000, lr: 0.000296, loss: 1.5331, eta: 0:21:00, time: 50.0908
+INFO train.py(180): it: 25550/26000, lr: 0.000270, loss: 1.6201, eta: 0:18:52, time: 52.4245
+INFO train.py(180): it: 25600/26000, lr: 0.000242, loss: 1.6308, eta: 0:16:46, time: 50.2380
+INFO train.py(180): it: 25650/26000, lr: 0.000215, loss: 1.5282, eta: 0:14:39, time: 50.1970
+INFO train.py(180): it: 25700/26000, lr: 0.000187, loss: 1.4645, eta: 0:12:33, time: 50.2575
+INFO train.py(180): it: 25750/26000, lr: 0.000159, loss: 1.5670, eta: 0:10:27, time: 50.1428
+INFO train.py(180): it: 25800/26000, lr: 0.000130, loss: 1.6288, eta: 0:08:22, time: 50.2299
+INFO train.py(180): it: 25850/26000, lr: 0.000101, loss: 1.5585, eta: 0:06:16, time: 50.1627
+INFO train.py(180): it: 25900/26000, lr: 0.000070, loss: 1.5632, eta: 0:04:11, time: 50.2058
+INFO train.py(180): it: 25950/26000, lr: 0.000038, loss: 1.7307, eta: 0:02:06, time: 50.1969
+INFO train.py(180): it: 26000/26000, lr: 0.000001, loss: 1.6330, eta: 0:00:02, time: 50.2289
+INFO evaluate.py(233): 
+
+INFO evaluate.py(234): ================================================================================
+INFO evaluate.py(235): evaluating the model ...
+
+INFO evaluate.py(236): setup and restore model
+INFO evaluate.py(246): compute the mIOU
+INFO evaluate.py(251): ================================================================================
+INFO train.py(191): mIOU is: 0.966508 | in iter: 25999
+INFO train.py(200): training done, model saved to: ./res/model_final_diss.pth
