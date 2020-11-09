@@ -1,0 +1,55 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.lib
+*.sbr
+*.sdf
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+.vscode
+
+# jupyter notebook
+.ipynb_checkpoints
+
+# project files
+CelebAMask-HQ-2000-sample
+CelebAMask-HQ-Model
+CelebAMask-HQ
+output/model_final.pth
+models/face_parsing/res
+models/image2stylegan/save_image/crossover/*.png
+models/image2stylegan/save_image_noise/crossover/*.png
+
+# weights
+models/image2stylegan/weight_files/pytorch/karras2019stylegan-ffhq-1024x1024_d.pt
+models/image2stylegan/weight_files/pytorch/karras2019stylegan-ffhq-1024x1024.pt
+models/image2stylegan/weight_files/tensorflow/karras2019stylegan-ffhq-1024x1024.pkl
+models/face_parsing/res/cp/*.pth
+models/face_parsing/res/test_res/*
+models/face_parsing/res/model_final_diss.pth
+models/face_alignment/haarcascades/haarcascade_eye.xml
+models/face_alignment/haarcascades/haarcascade_frontalface_default.xml
+
+
+__pycache__/
