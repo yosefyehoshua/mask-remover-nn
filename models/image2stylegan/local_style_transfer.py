@@ -82,7 +82,7 @@ def transfer(src_im1, src_im2, mask):
                                                                           loss_0,
                                                                           loss_1))
               save_image(synth_img.clamp(0, 1),
-                         "models/image2stylegan/save_image/local_/{}.png".format(i))
+                         "models/image2stylegan/save_image/{}.png".format(i))
               np.save("models/image2stylegan/latent_W/crossover.npy", dlatent.detach().cpu().numpy())
 
           if i != (cfg.iteration - 1):
@@ -105,7 +105,7 @@ def transfer(src_im1, src_im2, mask):
 
           if i%100==0:
                print("noise_N iter{}: loss -- {}".format(i,loss_np))
-               save_image(synth_img.clamp(0,1),"models/image2stylegan/save_image_noise/crossover/{}.png".format(i))
+               save_image(synth_img.clamp(0,1),"models/image2stylegan/save_image_noise/{}.png".format(i))
                np.save("models/image2stylegan/noise_N/crossover.npy",dlatent.detach().cpu().numpy())
           delete_noise_param()
 

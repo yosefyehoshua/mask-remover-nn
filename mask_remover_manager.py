@@ -48,8 +48,8 @@ def remove_corona_mask(save_inputs=False):
 
     
 
-    image_no_mask = args.img_no_mask # src_im1 #"/home/josefy/mask-remover-nn/models/image2stylegan/source_image/josef_no_mask3.jpeg"  
-    img_wth_mask = args.img_wth_mask # src_im2 "/home/josefy/mask-remover-nn/models/image2stylegan/source_image/josef_blue_mask3.jpeg"  
+    image_no_mask = "/home/josefy/mask-remover-nn/models/image2stylegan/source_image/amram_no_mask2.jpeg"  # args.img_no_mask # src_im1 
+    img_wth_mask =  "/home/josefy/mask-remover-nn/models/image2stylegan/source_image/amram_wth_mask2.jpeg"  # args.img_wth_mask # src_im2
 
     download_weights = args.download_weights 
     
@@ -68,6 +68,7 @@ def remove_corona_mask(save_inputs=False):
     
     transfer(img_ref_np, img_src_np, mask_np)
 
-if __name__ == "__main__":
-    remove_corona_mask()        
-
+remove_corona_mask(save_inputs=True)
+#if __name__ == "__main__":
+#    remove_corona_mask()        
+#

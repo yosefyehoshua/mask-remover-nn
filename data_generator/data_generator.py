@@ -18,7 +18,7 @@ def gen_data(root_dir, masks_arr):
     print("create masks")
     create_masked_faces(celeba_ds, masks_arr)
 
-    # merge all ground true
+    # merge all ground trues
     print("merge masks")
     merge_masks(celeba_ds)
 

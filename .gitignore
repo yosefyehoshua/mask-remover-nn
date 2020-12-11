@@ -49,13 +49,17 @@ output/model_final.pth
 models/face_parsing/res/cp/*.pth
 models/image2stylegan/save_image/crossover/*.png
 models/image2stylegan/save_image_noise/crossover/*.png
+models/image2stylegan/archive/*
+models/image2stylegan/latent_W/crossover/*.npy
+models/image2stylegan/noise_N/*.npy
 
 # weights
 models/image2stylegan/weight_files/pytorch/karras2019stylegan-ffhq-1024x1024_d.pt
 models/image2stylegan/weight_files/pytorch/karras2019stylegan-ffhq-1024x1024.pt
 models/image2stylegan/weight_files/tensorflow/karras2019stylegan-ffhq-1024x1024.pkl
 models/face_parsing/res/cp/*.pth
-models/face_parsing/res/test_res/*
+models/face_parsing/res/test_res/*.png
+models/face_parsing/res/test_res/*.jpg
 models/face_parsing/res/model_final_diss.pth
 models/face_alignment/haarcascades/haarcascade_eye.xml
 models/face_alignment/haarcascades/haarcascade_frontalface_default.xml
