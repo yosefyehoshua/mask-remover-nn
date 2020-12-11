@@ -58,6 +58,7 @@ models/image2stylegan/weight_files/pytorch/karras2019stylegan-ffhq-1024x1024_d.p
 models/image2stylegan/weight_files/pytorch/karras2019stylegan-ffhq-1024x1024.pt
 models/image2stylegan/weight_files/tensorflow/karras2019stylegan-ffhq-1024x1024.pkl
 models/face_parsing/res/cp/*.pth
+!models/face_parsing/res/cp/16249_iter.pth
 models/face_parsing/res/test_res/*.png
 models/face_parsing/res/test_res/*.jpg
 models/face_parsing/res/model_final_diss.pth
