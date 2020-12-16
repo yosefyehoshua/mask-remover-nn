@@ -12,8 +12,8 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser()
     arg = parser.add_argument
-    arg('--img_no_mask',default="source_image/joker.png") 
-    arg('--img_wth_mask',default="source_image/0.png") # src_im2
+    arg('--img_no_mask',default="models/image2stylegan/source_image/josef_no_mask3.jpeg") 
+    arg('--img_wth_mask',default="models/image2stylegan/source_image/josef_blue_mask3.jpeg") 
     arg('--download_weights', default=False)
     return parser.parse_args()
 
@@ -43,16 +43,7 @@ def get_mask(img_src_np):
     mask_np = get_mask_from_arr(img_src_np)
     return mask_np
 
-def remove_corona_mask(save_inputs=False):
-    args = parse_args()
-
-    
-
-    image_no_mask = "/home/josefy/mask-remover-nn/models/image2stylegan/source_image/amram_no_mask2.jpeg"  # args.img_no_mask # src_im1 
-    img_wth_mask =  "/home/josefy/mask-remover-nn/models/image2stylegan/source_image/amram_wth_mask2.jpeg"  # args.img_wth_mask # src_im2
-
-    download_weights = args.download_weights 
-    
+def remove_corona_mask(image_no_mask, img_wth_mask, save_inputs=False):        
     if download_weights:
         download_and_convert_weights()
     
@@ -68,7 +59,10 @@ def remove_corona_mask(save_inputs=False):
     
     transfer(img_ref_np, img_src_np, mask_np)
 
-remove_corona_mask(save_inputs=True)
-#if __name__ == "__main__":
-#    remove_corona_mask()        
-#
+if __name__ == "__main__":
+    args = parse_args()
+    image_no_mask = args.img_no_mask # src_im1 
+    img_wth_mask = args.img_wth_mask # src_im2
+
+    remove_corona_mask(image_no_mask, img_wth_mask)        
+
