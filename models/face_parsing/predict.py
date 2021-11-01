@@ -16,7 +16,7 @@ import cv2
 
 
 def vis_parsing_maps(im, parsing_anno, stride, save_im=False,
-                     save_path='/home/josefy/mask-remover-nn/models/face_parsing/res/test_res/parsing_map_on_im.jpg'):
+                     save_path='models/face_parsing/res/test_res/parsing_map_on_im.jpg'):
     # Colors for all 20 parts
     part_colors = [[255, 0, 0], [255, 85, 0], [0, 255, 170],
                    [255, 0, 85], [255, 0, 170],
@@ -82,14 +82,14 @@ def init_net():
     n_classes = 3
     net = BiSeNet(n_classes=n_classes)
     net.cuda()
-    save_pth = '/home/josefy/mask-remover-nn/models/face_parsing/res/cp' \
+    save_pth = 'models/face_parsing/res/cp' \
                '/16249_iter.pth'
     net.load_state_dict(torch.load(save_pth))
     net.eval()
     return net
 
 
-def test(dspth, respth='/home/josefy/mask-remover-nn/models/face_parsing'
+def test(dspth, respth='models/face_parsing'
                           '/res'
                           '/test_res'):
     if not os.path.exists(respth):

@@ -30,7 +30,7 @@ landmarks_model_path = unpack_bz2(get_file('shape_predictor_68_face_landmarks.da
 landmarks_detector = LandmarksDetector(landmarks_model_path)
 
 eye_cascade = cv2.CascadeClassifier(
-    "/home/josefy/mask-remover-nn/models/face_alignment/haarcascades"
+    "models/face_alignment/haarcascades"
     "/haarcascade_eye.xml")
 
 
