@@ -43,7 +43,7 @@ def get_mask(img_src_np):
     mask_np = get_mask_from_arr(img_src_np)
     return mask_np
 
-def remove_corona_mask(image_no_mask, img_wth_mask, save_inputs=False):        
+def remove_corona_mask(image_no_mask, img_wth_mask, download_weights, save_inputs=False):        
     if download_weights:
         download_and_convert_weights()
     
@@ -59,10 +59,12 @@ def remove_corona_mask(image_no_mask, img_wth_mask, save_inputs=False):
     
     transfer(img_ref_np, img_src_np, mask_np)
 
-if __name__ == "__main__":
+def main():
     args = parse_args()
     image_no_mask = args.img_no_mask # src_im1 
     img_wth_mask = args.img_wth_mask # src_im2
+    download_weights = args.download_weights
+    remove_corona_mask(image_no_mask, img_wth_mask, download_weights)        
 
-    remove_corona_mask(image_no_mask, img_wth_mask)        
-
+if __name__ == "__main__":
+    main()
