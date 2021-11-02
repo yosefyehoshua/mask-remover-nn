@@ -1,3 +1,4 @@
+#### TODO:
 1. Done! create a docker env for the code, check pytoirch versions that compatible
 2. Done! fuse FFHQ face_aligner.py with face_align class you wrote
 3. Done! clean images2stylegan++ code
