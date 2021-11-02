@@ -13,4 +13,4 @@
 `pip install face_recognition` <br />
 `pip install git+git://github.com/waspinator/pycococreator.git@0.2.0` <br />
 
-demo: https://colab.research.google.com/drive/1GoGGKnoka_mA0ZTXabZD729Q60WDTJcE?usp=sharing <br />
+demo: https://colab.research.google.com/drive/1ekXjqUcfGbV2E8VzOea_rgDiseuIymj8?usp=sharing <br />
