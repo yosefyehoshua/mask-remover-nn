@@ -6,10 +6,10 @@
 6. Done! upload code to google colab for demo use
 7. write a medium article (optional)
 
-# installation
-pytorch 1.5.1 cuda 10.2
-pip install torch==1.5.1 torchvision==0.6.1
-pip install face_recognition
-pip install git+git://github.com/waspinator/pycococreator.git@0.2.0
+# installation: 
+`pip install tensorflow==1.15.2` <br />
+`pip install torch==1.5.1 torchvision==0.6.1` <br />
+`pip install face_recognition` <br />
+`pip install git+git://github.com/waspinator/pycococreator.git@0.2.0` <br />
 
-demo: https://colab.research.google.com/drive/1GoGGKnoka_mA0ZTXabZD729Q60WDTJcE?usp=sharing
+demo: https://colab.research.google.com/drive/1GoGGKnoka_mA0ZTXabZD729Q60WDTJcE?usp=sharing <br />
